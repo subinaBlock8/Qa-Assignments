@@ -1,0 +1,13 @@
+Smoke Testing:
+1.It is a group of tests that are executed to verify if the basic functionalities of that particular build are working fine as expected or not. This is and should always be the first test to be done on any ‘new’ build.
+2.If any of the smoke tests fail, the build is rejected and the development team needs to fix the issue and release a new build for testing.
+3.Theoretically, the Smoke test is defined as surface-level testing to certify that the build provided by the development team to the QA team is ready for further testing. This testing is also performed by the development team before releasing the build to the QA team.
+   This testing is normally used in Integration Testing, System Testing, and Acceptance Level Testing.
+
+
+Sanity Testing:
+1.It is done to check the new functionality/bugs have been fixed.
+2.Sanity test should be done only when you are running short of time, never use this for your regular releases. Theoretically, this testing is a subset of Regression Testing.
+ 
+
+https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/
